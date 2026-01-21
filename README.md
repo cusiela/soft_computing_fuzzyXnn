@@ -37,14 +37,14 @@ Tantangan utama dalam penerapan AI di bidang medis adalah masalah interpretabili
 ### 1. Halaman Diagnosis
 Melakukan prediksi risiko stroke berdasarkan parameter klinis pasien secara real-time. Menampilkan kontribusi skor dari Fuzzy System dan Neural Network secara terpisah.
 
-![Diagnosis Page](path/to/your/image_c582dc.png)
-*(Ganti dengan path gambar diagnosis Anda)*
+![Diagnosis Page](visualization_outputs/assesmen.png)
+
 
 ### 2. Analisis Data & Performa Model
 Dashboard komprehensif yang menampilkan statistik dataset (ketidakseimbangan kelas) dan metrik evaluasi model seperti Confusion Matrix dan Kurva ROC.
 
-![Performance Page](path/to/your/image_c582bd.png)
-*(Ganti dengan path gambar performa Anda)*
+![Performance Page](visualization_outputs/performa_model.png)
+
 
 ---
 
