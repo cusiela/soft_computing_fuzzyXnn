@@ -74,5 +74,47 @@ Pastikan Anda telah menginstal Python 3.8 atau lebih baru.
 
 1. **Clone repository**
    ```bash
-   git clone [https://github.com/yourusername/medical_diagnosis_system.git](https://github.com/yourusername/medical_diagnosis_system.git)
+   git clone [https://github.com/yourusername/medical_diagnosis_system.git](https://github.com/cusiela/soft_computing_fuzzyXnn.git)]
    cd medical_diagnosis_system
+
+2. **Buat venv**
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Linux/Mac
+python3 -m venv venv
+source venv/bin/activate
+
+3. **Install dependencies**
+pip install -r requirements.txt
+
+5. **Jalankan aplikasi**
+python app.py
+
+7. **Buka browser**
+http://localhost:5000
+
+## 📖 Cara Penggunaan
+
+### 🩺 Melakukan Diagnosis
+
+1. **Buka halaman Diagnosis** pada web interface.
+2. **Masukkan data klinis pasien** pada form *Assesmen Pasien*:
+   - **Age**: Usia pasien (Range: 0-120 tahun).
+   - **BMI**: Body Mass Index (Range: 10-60 kg/m²).
+   - **Glucose**: Rata-rata level glukosa darah (Range: 50-300 mg/dL).
+   - **Hypertension**: Geser *toggle* jika pasien memiliki riwayat hipertensi.
+   - **Heart Disease**: Geser *toggle* jika pasien memiliki riwayat penyakit jantung.
+3. Klik tombol **Analyze Risk** (Menganalisa...).
+4. Sistem akan menampilkan **Hasil Diagnosis** di panel kanan:
+   - **Stroke Risk Probability**: Persentase kemungkinan stroke.
+   - **Risk Level**: Kategori risiko (Low, Moderate, High, Very High).
+   - **Breakdown**: Skor terpisah untuk Fuzzy dan Neural Network untuk transparansi.
+
+### 📊 Melihat Analisis
+
+1. Navigasi ke menu **Analisis** atau **Performa** melalui navigasi bar.
+2. Anda dapat melihat:
+   - Distribusi data pelatihan.
+   - Metrik validasi model saat ini (Akurasi, Sensitivitas, AUC-ROC, dll).
