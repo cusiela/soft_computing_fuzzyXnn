@@ -1,0 +1,9 @@
+venv/
+docs/
+__pycache__/
+notebooks/
+tests/
+venv/
+eksperimen_konfigurasi.py 
+tuning_result.txt
+visualisasi.py

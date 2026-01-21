@@ -1,0 +1,8 @@
+# Medical Diagnosis System Dependencies
+# =====================================
+
+# Web Framework
+Flask>=2.0.0
+
+# Note: All core algorithms (Fuzzy Logic, Neural Network, Metrics)
+# are implemented from scratch without sklearn or other ML libraries

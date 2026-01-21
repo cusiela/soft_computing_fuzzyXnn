@@ -1,0 +1,16 @@
+HYPERPARAMETER TUNING RESULTS
+==================================================
+
+Best Configuration:
+  balance_method: undersample
+  learning_rate: 0.07
+  epochs: 100
+  batch_size: 32
+  fuzzy_weight: 0.1
+
+Average Performance:
+  Accuracy: 72.09%
+  Sensitivity: 89.80%
+  Specificity: 71.19%
+  AUC-ROC: 85.05%
+  F1-Score: 23.59%
